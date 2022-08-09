@@ -30,7 +30,7 @@ selected = option_menu(
  )
 
 if selected == "Brain Tumor Detection":
-        st.markdown(Style,unsafe_allow_html=True)
+        #st.markdown(Style,unsafe_allow_html=True)
 
         file = st.file_uploader("Please upload image/images", type=["png", "jpeg", "jpg"], accept_multiple_files=True)
         show_file = st.empty()

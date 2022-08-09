@@ -1,0 +1,11 @@
+tensorflow-gpu
+imbalanced-learn
+scikit-learn
+matplotlib 
+seaborn 
+pandas 
+numpy 
+streamlit 
+streamlit-option-menu
+pillow
+opencv-python

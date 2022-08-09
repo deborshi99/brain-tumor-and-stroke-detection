@@ -99,8 +99,10 @@ if selected == "Brain Tumor Detection":
                                         col1, col2, col3 = st.columns(3)
                                         for i in data:
                                                 col1.image(i, caption=f"Image name: {i.name}", width=200)
-
-                                                col1.info(f"{result[i.name]} tumor has been detected")
+                                                if result[i.name] == "Cancer is not detected":
+                                                        col1.info(f"{result[i.name]}")
+                                                else:
+                                                        col1.info(f"{result[i.name]} tumor has been detected")
                                         
                                 
                                 show_output(result, file)

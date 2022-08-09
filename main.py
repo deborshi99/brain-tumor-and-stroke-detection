@@ -1,6 +1,3 @@
-from cgi import test
-from genericpath import exists
-from tkinter.ttk import Style
 import streamlit as st
 from streamlit_option_menu import option_menu
 from utils.analysis import train_data, scaler

@@ -22,8 +22,8 @@ layout="wide",
 
 selected = option_menu(
         menu_title=None,
-        options=["Brain Tumor Detection", "Brain Stroke Possibility"],
-        icons=["question-circle-fill", "activity"],
+        options=["Brain Tumor Detection", "Brain Stroke Possibility", "Source Code"],
+        icons=["question-circle-fill", "activity", "code-slash"],
         menu_icon="cast",
         default_index=0,
         orientation="horizontal"
@@ -198,4 +198,5 @@ elif selected == "Brain Stroke Possibility":
 
 
 
-
+elif selected == "Source Code":
+        st.markdown("Click [here](https://github.com/deborshi99/brain-tumor-and-stroke-detection.git)")
